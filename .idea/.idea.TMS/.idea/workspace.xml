@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83cd71ce-e99b-4b88-ad87-bec8a45055ee" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestCasesLayout.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TMS/Views/TestCases/TestCasesLayout.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding>
+                <marker date="1528091398364" expanded="true" signature="0:237" ph="@..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCasesController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TMS/Controllers/TestCasesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+              <folding>
+                <marker date="1528120227377" expanded="false" signature="6:112" ph="..." />
+                <marker date="1528120227377" expanded="true" signature="139:1334" ph="{...}" />
+                <marker date="1528120227377" expanded="true" signature="266:1332" ph="{...}" />
+                <marker date="1528120227377" expanded="true" signature="326:728" ph="{...}" />
+                <marker date="1528120227377" expanded="true" signature="457:684" ph="{...}" />
+                <marker date="1528120227377" expanded="true" signature="783:889" ph="{...}" />
+                <marker date="1528120227377" expanded="true" signature="943:1100" ph="{...}" />
+                <marker date="1528120227377" expanded="true" signature="1174:1326" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repository.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TMS/Services/Implements/Repository/Repository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="157" column="44" lean-forward="false" selection-start-line="157" selection-start-column="35" selection-end-line="157" selection-end-column="44" />
+              <folding>
+                <marker date="1528178499760" expanded="false" signature="6:157" ph="..." />
+                <marker date="1528178499760" expanded="true" signature="203:5415" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="247:5413" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="498:4010" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="521:2095" ph="Тестовые пользователи" />
+                <marker date="1528178499760" expanded="true" signature="593:920" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="977:1315" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="1372:1689" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="1746:2070" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="2108:3180" ph="Тестовые папки" />
+                <marker date="1528178499760" expanded="true" signature="2177:2291" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="2352:2466" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="2527:2805" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="2661:2791" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="2866:2980" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="3041:3155" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="3194:4000" ph="Тест кейсы" />
+                <marker date="1528178499760" expanded="true" signature="3272:3592" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="3654:3975" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="4055:4137" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="4202:4316" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="4365:4449" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="4519:4720" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="4773:4856" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="4939:5021" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="5090:5407" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="5206:5276" ph="{...}" />
+                <marker date="1528178499760" expanded="true" signature="5293:5367" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TMS/Services/Abstract/IRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <marker date="1528118529517" expanded="false" signature="6:133" ph="..." />
+                <marker date="1528118529517" expanded="true" signature="166:602" ph="{...}" />
+                <marker date="1528118529517" expanded="true" signature="201:600" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TMS/Views/Account/Login.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <marker date="1428499628660" expanded="true" signature="37:70" ph="@..." />
+                <marker date="1428499628660" expanded="true" signature="72:697" ph="&lt;div.../&gt;" />
+                <marker date="1428499628660" expanded="true" signature="140:690" ph="&lt;div.../&gt;" />
+                <marker date="1428499628660" expanded="true" signature="225:679" ph="&lt;div.../&gt;" />
+                <marker date="1428499628660" expanded="true" signature="262:664" ph="@..." />
+                <marker date="1428499628660" expanded="true" signature="361:664" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Edit.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TMS/Views/TestCases/Edit.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <marker date="1528117711402" expanded="true" signature="33:74" ph="@..." />
+                <marker date="1528117711402" expanded="true" signature="76:537" ph="@..." />
+                <marker date="1528117711402" expanded="true" signature="171:537" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubMenuElement.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TMS/Helpers/SubMenuElement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-293">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding>
+                <marker date="1528115689640" expanded="false" signature="6:124" ph="..." />
+                <marker date="1528115689640" expanded="true" signature="147:3948" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="187:643" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="478:583" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="687:1772" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="902:945" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="998:1766" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="1103:1182" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="1199:1424" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="1818:2741" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="2037:2057" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="2110:2735" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="2774:3946" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="2928:2974" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="3042:3123" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="3157:3218" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="3265:3317" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="3388:3472" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="3511:3940" ph="{...}" />
+                <marker date="1528115689640" expanded="true" signature="3790:3872" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCaseModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TMS/Models/DataModels/TestCaseModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding>
+                <marker date="1528117498127" expanded="true" signature="6:151" ph="..." />
+                <marker date="1528117498127" expanded="true" signature="173:621" ph="{...}" />
+                <marker date="1528117498127" expanded="true" signature="222:619" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultyLineText.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TMS/Views/Shared/EditorTemplates/MultyLineText.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1528094833032" expanded="true" signature="15:228" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCaseModel.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TMS/Views/Shared/EditorTemplates/TestCaseModel.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding>
+                <marker date="1528091546719" expanded="true" signature="40:73" ph="@..." />
+                <marker date="1528091546719" expanded="true" signature="75:110" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TMS/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/Shared/MainMenu.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/Shared/Navigation.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/Shared/EditorTemplates/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/System/SystemLayout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/System/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/System/Folders.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Models/DataModels/TestCaseModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Models/DataModels/BaseModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Models/DataModels/LoginModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Helpers/SubMenuElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Models/DataModels/SystemModels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Helpers/HtmlHelpersAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Controllers/TestCasesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Services/Abstract/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/TestCases/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/TestCases/TestCasesLayout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Services/Implements/Repository/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23916767-7E3A-4FAB-AD85-0BB94082B2DD/f0/5fc534ff/WebViewPage.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TMS/Controllers/SystemController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Models/WebModel/TestCaseListModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/Shared/DisplayTemplates/TestCaseModel.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/TestCases/ViewTc.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/Shared/EditorTemplates/TestCaseModel.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Controllers/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/TestCases/Edit.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TMS/Views/Shared/EditorTemplates/MultyLineText.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TMS/Views/TestCases/SystemLayout.cshtml" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23916767-7E3A-4FAB-AD85-0BB94082B2DD/f0/5fc534ff/WebViewPage.cs" />
+        <option value="$PROJECT_DIR$/TMS/Views/Shared/DisplayTemplates/TestCaseModel.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Views/TestCases/ViewTc.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Models/WebModel/TestCaseListModel.cs" />
+        <option value="$PROJECT_DIR$/TMS/Views/TestCases/Index.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Views/System/Index.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Views/System/SystemLayout.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Views/TestCases/TestCasesLayout.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Views/Shared/EditorTemplates/TestCaseModel.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Views/Shared/EditorTemplates/MultyLineText.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Helpers/SubMenuElement.cs" />
+        <option value="$PROJECT_DIR$/TMS/Models/DataModels/TestCaseModel.cs" />
+        <option value="$PROJECT_DIR$/TMS/Views/TestCases/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/TMS/Services/Abstract/IRepository.cs" />
+        <option value="$PROJECT_DIR$/TMS/Controllers/TestCasesController.cs" />
+        <option value="$PROJECT_DIR$/TMS/Services/Implements/Repository/Repository.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestCases" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EditorTemplates" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DisplayTemplates" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Account" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Implements" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Implements" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Abstract" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebModel" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataModels" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TMS" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TMS/TMS.csproj" />
+      <option name="PROJECT_KIND" value="Web" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <option name="EXE_PATH" value="C:/Program Files/IIS Express/iisexpress.exe" />
+      <option name="PROGRAM_PARAMETERS" value="/config:$PROJECT_DIR$/.idea/config/applicationhost.config /site:TMS /apppool:Clr4IntegratedAppPool" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83cd71ce-e99b-4b88-ad87-bec8a45055ee" name="Default" comment="" />
+      <created>1527837071571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527837071571</updated>
+      <workItem from="1527837075186" duration="14738000" />
+      <workItem from="1528090728173" duration="12482000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27220000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.309795" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22734627" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TMS/Views/TestCases/ViewTc.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="145" lean-forward="false" selection-start-line="8" selection-start-column="145" selection-end-line="8" selection-end-column="145" />
+          <folding>
+            <marker date="1527853177996" expanded="true" signature="32:918" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/TestCases/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <marker date="1527854275817" expanded="true" signature="46:123" ph="@..." />
+            <marker date="1527854275817" expanded="true" signature="125:1326" ph="&lt;table.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="151:285" ph="&lt;thead.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="163:272" ph="&lt;tr.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="290:1317" ph="&lt;tbody.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="302:704" ph="&lt;tr.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="405:694" ph="&lt;td.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="409:680" ph="@{...}" />
+            <marker date="1527854275817" expanded="true" signature="709:992" ph="@..." />
+            <marker date="1527854275817" expanded="true" signature="747:992" ph="{...}" />
+            <marker date="1527854275817" expanded="true" signature="762:986" ph="&lt;tr.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="997:1304" ph="@..." />
+            <marker date="1527854275817" expanded="true" signature="1039:1304" ph="{...}" />
+            <marker date="1527854275817" expanded="true" signature="1054:1298" ph="&lt;tr.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/System/Folders.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="86" />
+          <folding>
+            <marker date="1528115451558" expanded="true" signature="51:406" ph="@..." />
+            <marker date="1528115451558" expanded="true" signature="429:869" ph="&lt;table.../&gt;" />
+            <marker date="1528115451558" expanded="true" signature="455:860" ph="&lt;tbody.../&gt;" />
+            <marker date="1528115451558" expanded="true" signature="471:847" ph="@..." />
+            <marker date="1528115451558" expanded="true" signature="500:847" ph="{...}" />
+            <marker date="1528115451558" expanded="true" signature="540:591" ph="{...}" />
+            <marker date="1528115451558" expanded="true" signature="757:836" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Account/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <marker date="1428499628660" expanded="true" signature="37:70" ph="@..." />
+            <marker date="1428499628660" expanded="true" signature="72:697" ph="&lt;div.../&gt;" />
+            <marker date="1428499628660" expanded="true" signature="140:690" ph="&lt;div.../&gt;" />
+            <marker date="1428499628660" expanded="true" signature="225:679" ph="&lt;div.../&gt;" />
+            <marker date="1428499628660" expanded="true" signature="262:664" ph="@..." />
+            <marker date="1428499628660" expanded="true" signature="361:664" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Shared/MainMenu.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <folding>
+            <marker date="1431952097640" expanded="true" signature="48:348" ph="@*...*@" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Services/Implements/Repository/Repository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="118" column="35" lean-forward="false" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+          <folding>
+            <marker date="1528178499760" expanded="false" signature="6:157" ph="..." />
+            <marker date="1528178499760" expanded="true" signature="203:5415" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="247:5413" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="498:4010" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="521:2095" ph="Тестовые пользователи" />
+            <marker date="1528178499760" expanded="true" signature="593:920" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="977:1315" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="1372:1689" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="1746:2070" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="2108:3180" ph="Тестовые папки" />
+            <marker date="1528178499760" expanded="true" signature="2177:2291" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="2352:2466" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="2527:2805" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="2661:2791" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="2866:2980" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="3041:3155" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="3194:4000" ph="Тест кейсы" />
+            <marker date="1528178499760" expanded="true" signature="3272:3592" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="3654:3975" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4055:4137" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4202:4316" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4365:4449" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4519:4720" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4773:4856" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4939:5021" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="5090:5407" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="5206:5276" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="5293:5367" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Controllers/BaseController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23916767-7E3A-4FAB-AD85-0BB94082B2DD/f0/5fc534ff/WebViewPage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="70" column="18" lean-forward="false" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Models/DataModels/SystemModels.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Controllers/SystemController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Models/DataModels/LoginModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Content/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/System/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Helpers/HtmlHelpersAccess.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/System/SystemLayout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="99" lean-forward="false" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Shared/Navigation.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Shared/MainMenu.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <folding>
+            <marker date="1431952097640" expanded="true" signature="48:348" ph="@*...*@" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="40" column="55" lean-forward="false" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/System/Folders.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="86" />
+          <folding>
+            <marker date="1528115451558" expanded="true" signature="51:406" ph="@..." />
+            <marker date="1528115451558" expanded="true" signature="429:869" ph="&lt;table.../&gt;" />
+            <marker date="1528115451558" expanded="true" signature="455:860" ph="&lt;tbody.../&gt;" />
+            <marker date="1528115451558" expanded="true" signature="471:847" ph="@..." />
+            <marker date="1528115451558" expanded="true" signature="500:847" ph="{...}" />
+            <marker date="1528115451558" expanded="true" signature="540:591" ph="{...}" />
+            <marker date="1528115451558" expanded="true" signature="757:836" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Shared/DisplayTemplates/TestCaseModel.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <marker date="1527845544190" expanded="true" signature="54:204" ph="&lt;div.../&gt;" />
+            <marker date="1527845544190" expanded="true" signature="135:197" ph="&lt;div.../&gt;" />
+            <marker date="1527845544190" expanded="true" signature="205:376" ph="&lt;div.../&gt;" />
+            <marker date="1527845544190" expanded="true" signature="308:369" ph="&lt;div.../&gt;" />
+            <marker date="1527845544190" expanded="true" signature="377:538" ph="&lt;div.../&gt;" />
+            <marker date="1527845544190" expanded="true" signature="472:531" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/TestCases/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <marker date="1527854275817" expanded="true" signature="46:123" ph="@..." />
+            <marker date="1527854275817" expanded="true" signature="125:1326" ph="&lt;table.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="151:285" ph="&lt;thead.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="163:272" ph="&lt;tr.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="290:1317" ph="&lt;tbody.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="302:704" ph="&lt;tr.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="405:694" ph="&lt;td.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="409:680" ph="@{...}" />
+            <marker date="1527854275817" expanded="true" signature="709:992" ph="@..." />
+            <marker date="1527854275817" expanded="true" signature="747:992" ph="{...}" />
+            <marker date="1527854275817" expanded="true" signature="762:986" ph="&lt;tr.../&gt;" />
+            <marker date="1527854275817" expanded="true" signature="997:1304" ph="@..." />
+            <marker date="1527854275817" expanded="true" signature="1039:1304" ph="{...}" />
+            <marker date="1527854275817" expanded="true" signature="1054:1298" ph="&lt;tr.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/TestCases/ViewTc.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1527853177996" expanded="true" signature="32:918" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Shared/EditorTemplates/TestCaseModel.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <marker date="1528091546719" expanded="true" signature="40:73" ph="@..." />
+            <marker date="1528091546719" expanded="true" signature="75:110" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Shared/EditorTemplates/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428491301071" expanded="true" signature="15:259" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Models/WebModel/TestCaseListModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <marker date="1527853481254" expanded="false" signature="6:59" ph="..." />
+            <marker date="1527853481254" expanded="true" signature="90:323" ph="{...}" />
+            <marker date="1527853481254" expanded="true" signature="127:321" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <marker date="1528115451558" expanded="true" signature="16:1912" ph="&lt;html.../&gt;" />
+            <marker date="1528115451558" expanded="true" signature="23:1033" ph="&lt;head.../&gt;" />
+            <marker date="1528115451558" expanded="true" signature="534:991" ph="&lt;script.../&gt;" />
+            <marker date="1528115451558" expanded="true" signature="587:976" ph="{...}" />
+            <marker date="1528115451558" expanded="true" signature="1034:1904" ph="&lt;body.../&gt;" />
+            <marker date="1528115451558" expanded="true" signature="1088:1805" ph="&lt;div.../&gt;" />
+            <marker date="1528115451558" expanded="true" signature="1126:1721" ph="&lt;div.../&gt;" />
+            <marker date="1528115451558" expanded="true" signature="1161:1706" ph="@..." />
+            <marker date="1528115451558" expanded="true" signature="1190:1706" ph="{...}" />
+            <marker date="1528115451558" expanded="true" signature="1317:1648" ph="{...}" />
+            <marker date="1528115451558" expanded="true" signature="1539:1630" ph="{...}" />
+            <marker date="1528115451558" expanded="true" signature="1730:1794" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Shared/EditorTemplates/MultyLineText.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1528094833032" expanded="true" signature="15:228" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/Account/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1428499628660" expanded="true" signature="37:70" ph="@..." />
+            <marker date="1428499628660" expanded="true" signature="72:697" ph="&lt;div.../&gt;" />
+            <marker date="1428499628660" expanded="true" signature="140:690" ph="&lt;div.../&gt;" />
+            <marker date="1428499628660" expanded="true" signature="225:679" ph="&lt;div.../&gt;" />
+            <marker date="1428499628660" expanded="true" signature="262:664" ph="@..." />
+            <marker date="1428499628660" expanded="true" signature="361:664" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Helpers/SubMenuElement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <marker date="1528115689640" expanded="false" signature="6:124" ph="..." />
+            <marker date="1528115689640" expanded="true" signature="147:3948" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="187:643" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="478:583" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="687:1772" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="902:945" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="998:1766" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="1103:1182" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="1199:1424" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="1818:2741" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="2037:2057" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="2110:2735" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="2774:3946" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="2928:2974" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="3042:3123" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="3157:3218" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="3265:3317" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="3388:3472" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="3511:3940" ph="{...}" />
+            <marker date="1528115689640" expanded="true" signature="3790:3872" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/TestCases/TestCasesLayout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <marker date="1528091398364" expanded="true" signature="0:237" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Models/DataModels/BaseModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1527839269862" expanded="false" signature="6:84" ph="..." />
+            <marker date="1527839269862" expanded="true" signature="106:292" ph="{...}" />
+            <marker date="1527839269862" expanded="true" signature="135:186" ph="{...}" />
+            <marker date="1527839269862" expanded="true" signature="230:290" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Models/DataModels/TestCaseModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <marker date="1528117498127" expanded="true" signature="6:151" ph="..." />
+            <marker date="1528117498127" expanded="true" signature="173:621" ph="{...}" />
+            <marker date="1528117498127" expanded="true" signature="222:619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Views/TestCases/Edit.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1528117711402" expanded="true" signature="33:74" ph="@..." />
+            <marker date="1528117711402" expanded="true" signature="76:537" ph="@..." />
+            <marker date="1528117711402" expanded="true" signature="171:537" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Controllers/TestCasesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <marker date="1528120227377" expanded="false" signature="6:112" ph="..." />
+            <marker date="1528120227377" expanded="true" signature="139:1334" ph="{...}" />
+            <marker date="1528120227377" expanded="true" signature="266:1332" ph="{...}" />
+            <marker date="1528120227377" expanded="true" signature="326:728" ph="{...}" />
+            <marker date="1528120227377" expanded="true" signature="457:684" ph="{...}" />
+            <marker date="1528120227377" expanded="true" signature="783:889" ph="{...}" />
+            <marker date="1528120227377" expanded="true" signature="943:1100" ph="{...}" />
+            <marker date="1528120227377" expanded="true" signature="1174:1326" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Services/Abstract/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <marker date="1528118529517" expanded="false" signature="6:133" ph="..." />
+            <marker date="1528118529517" expanded="true" signature="166:602" ph="{...}" />
+            <marker date="1528118529517" expanded="true" signature="201:600" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TMS/Services/Implements/Repository/Repository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="157" column="44" lean-forward="false" selection-start-line="157" selection-start-column="35" selection-end-line="157" selection-end-column="44" />
+          <folding>
+            <marker date="1528178499760" expanded="false" signature="6:157" ph="..." />
+            <marker date="1528178499760" expanded="true" signature="203:5415" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="247:5413" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="498:4010" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="521:2095" ph="Тестовые пользователи" />
+            <marker date="1528178499760" expanded="true" signature="593:920" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="977:1315" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="1372:1689" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="1746:2070" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="2108:3180" ph="Тестовые папки" />
+            <marker date="1528178499760" expanded="true" signature="2177:2291" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="2352:2466" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="2527:2805" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="2661:2791" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="2866:2980" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="3041:3155" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="3194:4000" ph="Тест кейсы" />
+            <marker date="1528178499760" expanded="true" signature="3272:3592" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="3654:3975" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4055:4137" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4202:4316" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4365:4449" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4519:4720" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4773:4856" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="4939:5021" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="5090:5407" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="5206:5276" ph="{...}" />
+            <marker date="1528178499760" expanded="true" signature="5293:5367" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

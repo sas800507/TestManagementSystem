@@ -1,0 +1,45 @@
+﻿@model TMS.Models.WebModel.TestCaseListModel
+
+@{
+    ViewBag.Title = "Тест кейсы";
+    Layout = "TestCasesLayout.cshtml";
+}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th class="col-md-1">#</th>
+        <th class="col-md-1">ID</th>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><span class="glyphicon glyphicon-folder-open"></span></td>
+        <td> </td>
+        <td>@Html.ActionLink(
+                @Model.ParentFolder == null ? "Корень" : @Model.ParentFolder.Name, 
+                "Index", 
+                "TestCases", 
+                new {parent = @Model.ParentFolder == null ? null : Model.ParentFolder.ID}, 
+                null)
+        </td>
+    </tr>
+    @foreach (var folder in Model.Folders)
+    {
+        <tr>
+            <td><span class="glyphicon glyphicon-folder-close"></span></td>
+            <td> </td>
+            <td>@Html.ActionLink(@folder.Name, "Index", "TestCases", new {parent = @folder.ID}, null)</td>
+        </tr>
+    }
+    @foreach (var testCase in Model.TestCases)
+    {
+        <tr>
+            <td><span class="glyphicon glyphicon-list-alt"></span></td>
+            <td>@testCase.UnicID</td>
+            <td>@Html.ActionLink(@testCase.Name, "ViewTC", "TestCases", new {testCaseId = @testCase.ID}, null)</td>
+        </tr>
+    }
+    </tbody>
+</table>

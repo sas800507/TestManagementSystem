@@ -1,0 +1,18 @@
+﻿@model TMS.Models.TestCaseModel
+
+@{
+    ViewBag.Title = "Редактировать";
+}
+
+@using (Html.BeginForm("Save", "TestCases", FormMethod.Post, new {@class = "form-horizontal"}))
+{
+    @Html.ValidationSummary()
+    @Html.EditorFor(x => x.Name)
+    @Html.EditorFor(x => x.Description)
+    @Html.EditorFor(x => x.StepBefore)
+    @Html.EditorFor(x => x.Expected)
+    @Html.HiddenFor(x => x.UnicID)
+    @Html.HiddenFor(x => x.ID)
+    @Html.HiddenFor(x => x.Folder.ID)
+    <button type="submit" class="btn btn-success btn-block">Сохранить</button>
+}

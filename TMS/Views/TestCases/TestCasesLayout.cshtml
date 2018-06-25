@@ -1,0 +1,8 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var tcMenu = new SubMenuElement(4);
+    tcMenu.AddItem("<span class=\"glyphicon glyphicon-plus\"></span>", Url.Action("Edit", "TestCases"), "Добавить");
+    ViewBag.SubMenu = tcMenu;
+}
+
+@RenderBody()

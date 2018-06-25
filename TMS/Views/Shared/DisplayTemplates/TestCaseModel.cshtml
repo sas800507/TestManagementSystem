@@ -1,0 +1,21 @@
+﻿@model TMS.Models.TestCaseModel
+
+<h1>@Model.Name</h1>
+<div class="panel panel-info">
+    <div class="panel-heading">Описание</div>
+    <div class="panel-body">
+        @Model.Description
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">Последовательность действий</div>
+    <div class="panel-body">
+        @Model.StepBefore
+    </div>
+</div>
+<div class="panel panel-success">
+    <div class="panel-heading">Ожидаемый результат</div>
+    <div class="panel-body">
+        @Model.Expected
+    </div>
+</div>

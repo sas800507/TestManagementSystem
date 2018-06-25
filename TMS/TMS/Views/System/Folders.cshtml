@@ -1,0 +1,32 @@
+﻿@using TMS.Models
+@model IEnumerable<FolderModel>
+
+@{
+    ViewBag.Title = "Системные папки";
+    Layout = "SystemLayout.cshtml";
+    var sysMenuAddon = new List<SubMenuLink>();
+    sysMenuAddon.Add(new SubMenuLink("<span class=\"glyphicon glyphicon-plus\"></span>", Url.Action("FolderEdit", "System"), "Добавить папку", TMS.Constants.Constants.UserType.Manager));
+    ViewBag.SubMenuAddon = sysMenuAddon;
+}
+
+@{ var rowCnt = 0; }
+<table class="table">
+    <tbody>
+        @foreach (var item in @Model)
+        {
+            if (@rowCnt == 0)
+            {
+                @:<tr>
+            }
+                rowCnt += 1;
+                <td>@Html.ActionLink(@item.Name, "Folders", "System", new {parent = @item.ID}, null)</td>
+
+            if (@rowCnt == 3)
+            {
+                @:<tr>
+                rowCnt = 0;
+            }
+
+        }
+    </tbody>
+</table>

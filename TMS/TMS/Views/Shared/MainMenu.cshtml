@@ -1,0 +1,13 @@
+﻿@using TMS.Constants
+@model Constants.UserType
+
+@*
+@Html.Li(@Html.ActionLink("User", "User", "Home")).AccessUser(@Model)
+@Html.Li(@Html.ActionLink("Staff", "Staff", "Home")).AccessStaff(@Model)
+@Html.Li(@Html.ActionLink("Manager", "Manager", "Home")).AccessManager(@Model)
+@Html.Li(@Html.ActionLink("Admin", "Admin", "Home")).AccessAdmin(@Model)
+*@
+@Html.Li(@Html.ActionLink("Требования", "Index", "Requrements")).AccessUser(@Model)
+@Html.Li(@Html.ActionLink("Тестовые случаи", "Index", "TestCases")).AccessUser(@Model)
+@Html.Li(@Html.ActionLink("Тестпланы", "Index", "TestPlans")).AccessUser(@Model)
+@Html.Li(@Html.ActionLink("Система", "Index", "System")).AccessManager(@Model)

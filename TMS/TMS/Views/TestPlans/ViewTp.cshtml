@@ -1,0 +1,12 @@
+﻿@model TMS.Models.TestPlanModel
+
+@{
+    ViewBag.Title = "Редактирование";
+    var tpMenu = new SubMenuElement(4);
+    tpMenu.AddItem("<span class=\"fa fa-arrow-left\"></span>", Url.Action("Index", "TestPlans", new {parent = @Model.Folder.ID}, null), "Назад");
+    tpMenu.AddItem("<span class=\"fa fa-play\"></span>", Url.Action("Play", "TestPlans", new {testPlanId = @Model.ID}, null), "Запустить");
+    tpMenu.AddItem("<span class=\"fa fa-print\"></span>", Url.Action("Print", "TestPlans", new {testPlanId = @Model.ID}, null), "Отчёт");
+    ViewBag.SubMenu = tpMenu;
+}
+
+@Html.DisplayForModel()

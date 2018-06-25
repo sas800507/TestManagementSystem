@@ -1,0 +1,52 @@
+﻿@using TMS.Models.Cashed
+@model TMS.Models.WebModel.TestPlanListModel
+
+@{
+    ViewBag.Title = "Планы тестирования";
+    Layout = "TestPlanLayout.cshtml";
+}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th class="col-md-1">#</th>
+        <th class="col-md-1">ID</th>
+        <th>Name</th>
+        <th class="col-md-2">State</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><span class="glyphicon glyphicon-folder-open"></span></td>
+        <td> </td>
+        <td>@Html.ActionLink(
+                @Model.ParentFolder == null ? "Корень" : @Model.ParentFolder.Name, 
+                "Index", 
+                "TestPlans", 
+                new {parent = @Model.ParentFolder == null ? null : Model.ParentFolder.ID}, 
+                null)
+        </td>
+    </tr>
+    @foreach (var folder in Model.Folders)
+    {
+        <tr>
+            <td><span class="glyphicon glyphicon-folder-close"></span></td>
+            <td> </td>
+            <td>@Html.ActionLink(@folder.Name, "Index", "TestPlans", new {parent = @folder.ID}, null)</td>
+            <td></td>
+        </tr>
+    }
+    @foreach (var testPlan in Model.TestPlans)
+    {
+        <tr>
+            <td><span class="glyphicon glyphicon-list-alt"></span></td>
+            <td>@testPlan.ID</td>
+            <td>@Html.ActionLink(testPlan.Name, "ViewTP", "TestPlans", new {testPlanId = testPlan.ID}, null)</td>
+            <td>@{
+                    ConstantsPlanState state = CachedConstants.PlanStates.First(x => x.ID.Equals(testPlan.State));
+                    @Html.DisplayFor(x => state);
+                }</td>
+        </tr>
+    }
+    </tbody>
+</table>

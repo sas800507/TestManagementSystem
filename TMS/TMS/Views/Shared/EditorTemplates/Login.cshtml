@@ -1,0 +1,6 @@
+﻿@model string
+
+<div class="input-group" style="margin-bottom: 25px;">
+    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+    @Html.TextBoxFor(x => x, new Dictionary<string, object>() { {"class", "form-control"} })
+</div>

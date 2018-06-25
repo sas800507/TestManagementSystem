@@ -1,0 +1,22 @@
+﻿@using TMS.Models
+@model LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3">
+    <div class="panel panel-info">
+        <div class="panel-heading">Вход</div>
+        <div class="panel-body">
+            @using (Html.BeginForm("Validate", "Account", FormMethod.Post, new { @class = "form-horizontal" }))
+            {
+                @Html.ValidationSummary()
+                @Html.EditorFor(x => x.Login)
+                @Html.EditorFor(x => x.Password)
+                @Html.EditorFor(x => x.RememberMe)
+                <button type="submit" class="btn btn-success btn-block">Войти</button>
+            }
+        </div>
+    </div>
+</div>

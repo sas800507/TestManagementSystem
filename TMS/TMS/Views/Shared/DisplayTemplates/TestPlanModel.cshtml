@@ -1,0 +1,50 @@
+﻿@using TMS.Models.Cashed
+@model TMS.Models.TestPlanModel
+
+<h1>@Model.Name</h1>
+<div class="panel panel-info">
+    <div class="panel-heading">Описание</div>
+    <div class="panel-body">
+        @Model.Description
+    </div>
+</div>
+<div class="panel panel-info">
+    <div class="panel-heading">Состояние</div>
+    <div class="panel-body">
+        @{
+            ConstantsPlanState state = CachedConstants.PlanStates.First(x => x.ID.Equals(Model.State));
+            @Html.DisplayFor(x => state);
+        }
+    </div>
+</div>
+<div class="panel panel-success">
+    <div class="panel-heading">Выводы</div>
+    <div class="panel-body">
+        @Model.Result
+    </div>
+</div>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th class="col-md-8">Имя</th>
+        <th class="col-md-3">Результат</th>
+        <th class="col-md-1">Прочее</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var tc in Model.TestCases)
+    {
+        <tr>
+            <td>@tc.TestCase.Name</td>
+            <td>@{
+                    ConstantsTestCaseState tcResult = CachedConstants.TestCaseStates.First(x => x.ID.Equals(tc.ResultId));
+                    @Html.DisplayFor(x => tcResult);
+                }
+            </td>
+            <td>
+                @Html.IconLink("fa fa-file-text", @Url.Action("ViewTcResult", "TestPlans", new {parent = tc.ID}))
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

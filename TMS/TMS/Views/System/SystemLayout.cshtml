@@ -1,0 +1,9 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var sysMenu = new SubMenuElement(4);
+    sysMenu.AddItem("<span class=\"glyphicon glyphicon-folder-open\"></span>", Url.Action("Folders", "System"), "Папки");
+    sysMenu.AddItem("<i class=\"fa fa-users\"></i>", Url.Action("Users", "System"), "Пользователи");
+    ViewBag.SubMenu = sysMenu;
+}
+
+@RenderBody()

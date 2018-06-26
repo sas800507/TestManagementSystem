@@ -1,0 +1,45 @@
+﻿@using TMS.Models.Cashed
+@model TMS.Models.DataModels.TestPlanModel
+
+@{
+    ViewBag.Title = string.Format("Выполнение - {0}", Model.Name);
+    var tpMenu = new SubMenuElement(4);
+    tpMenu.AddItem("<span class=\"fa fa-close\"></span>", Url.Action("ViewTp", "TestPlans", new {testPlanId = @Model.ID}, null), "Закрыть");
+    ViewBag.SubMenu = tpMenu;
+}
+
+<table class="table table-condensed">
+    <thead>
+    <tr>
+        <th class="col-md-3">Имя</thclass>
+        <th class="col-md-4">Шаги</th>
+        <th class="col-md-3">Ожидалось</th>
+        <th class="col-md-2">Результат</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var tc in Model.TestCases)
+        {
+            <tr>
+                <td>@tc.TestCase.Name</td>
+                <td>@Html.DisplayFor(x => tc.TestCase.StepBefore)</td>
+                <td>@Html.DisplayFor(x => tc.TestCase.Expected)</td>
+                <td>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: @tc.TcResult.HtmlColor">
+                            @tc.TcResult.Name <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            @foreach (var state in CachedConstants.TestCaseStates)
+                            {
+                                <li>
+                                    @Html.ActionLink(@state.Name, "ChangeResult", "TestPlans", new {tpId = Model.ID, tcResultId = tc.ID, reultId = state.ID}, null)
+                                </li>
+                            }
+                        </ul>                        
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

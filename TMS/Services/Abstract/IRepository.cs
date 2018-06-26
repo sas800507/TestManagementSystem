@@ -1,14 +1,15 @@
 ﻿using TMS.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TMS.Models.Cashed;
+using TMS.Models.DataModels;
 
 namespace TMS.Services.Abstract
 {
     public interface IRepository
     {
+        IEnumerable<ConstantsPlanState> PlanStates();
+        IEnumerable<ConstantsTestCaseState> TestCaseStates();
+
         UserModel GetUser(string id);
         UserModel GetUser(string login, string password);
 
@@ -18,5 +19,12 @@ namespace TMS.Services.Abstract
         TestCaseModel GetTestCase(string id);
         IEnumerable<TestCaseModel> GetTestCases(FolderModel folder = null);
         TestCaseModel UpdateTestCase(TestCaseModel testCase);
+
+        TestPlanModel GetTestPlan(string id);
+        IEnumerable<TestPlanModel> GetTestPlans(FolderModel folder = null);
+        TestPlanModel UpdaTestPlan(TestPlanModel testPlan);
+
+        TestCaseResultModel GetTestCaseResult(string id);
+        TestCaseResultModel UpdateTestCaseResult(TestCaseResultModel tcResult);
     }
 }

@@ -1,0 +1,43 @@
+﻿@using TMS.Models.Cashed
+@model TMS.Models.DataModels.TestPlanModel
+
+<h1>@Model.Name</h1>
+<div class="panel panel-info">
+    <div class="panel-heading">@Html.DisplayNameFor(x => Model.Description)</div>
+    <div class="panel-body">
+        @Html.DisplayFor(x => Model.Description)
+    </div>
+</div>
+<div class="panel panel-info">
+    <div class="panel-heading">@Html.DisplayNameFor(x => Model.State)</div>
+    <div class="panel-body">
+            @Html.DisplayFor(x => Model.State)
+    </div>
+</div>
+<div class="panel panel-success">
+    <div class="panel-heading">@Html.DisplayNameFor(x => Model.Result)</div>
+    <div class="panel-body">
+        @Html.DisplayFor(x => Model.Result)
+    </div>
+</div>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th class="col-md-8">Имя</th>
+        <th class="col-md-3">Результат</th>
+        <th class="col-md-1">Прочее</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var tc in Model.TestCases)
+    {
+        <tr>
+            <td>@tc.TestCase.Name</td>
+            <td>@Html.DisplayFor(x => tc.TcResult)</td>
+            <td>
+                @Html.IconLink("fa fa-file-text", @Url.Action("ViewTcResult", "TestPlans", new {parent = tc.ID}))
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

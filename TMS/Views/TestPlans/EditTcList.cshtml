@@ -1,0 +1,75 @@
+﻿@model TMS.Models.WebModel.TestPlanEditTestListModel
+
+@{
+    ViewBag.Title = "Планы тестирования";
+    var tpMenu = new SubMenuElement(4);
+    tpMenu.AddItem("<span class=\"fa fa-close\"></span>", Url.Action("ViewTp", "TestPlans", new {testPlanId = @Model.TestPlanId}, null), "Закрыть");
+    ViewBag.SubMenu = tpMenu;
+}
+
+<h1>Редактор</h1>
+<div class="col-md-5">
+    <table class="table table-condensed">
+        <thead>
+        <tr>
+            <th class="col-md-1"><input type="checkbox"/></th>
+            <th class="col-md-1"><i class="fa fa-navicon"></i></th>
+            <th class="col-md-10">Имя</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><input type="checkbox" disabled="true"/></td>
+            <td><i class="fa fa-folder-open"></i></td>
+            <td>
+                @Model.TestCasesAll.ParentFolder.Name<br/>
+            </td>
+        </tr>
+        @foreach (var item in @Model.TestCasesAll.Folders)
+        {
+            <tr>
+                <td><input type="checkbox" disabled="true"/></td>
+                <td><i class="fa fa-folder"></i></td>
+                <td>@item.Name<br/></td>
+            </tr>
+        }
+        @foreach (var item in Model.TestCasesAll.TestCases)
+        {
+            <tr>
+                <td><input type="checkbox"/></td>
+                <td><i class="fa fa-gear"></i></td>
+                <td>@item.Name<br/></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+<div class="col-md-2">
+    @{
+        var menu = new SubMenuElement(5);
+        // TODO Кнопки должны работать по скрипту
+        menu.AddItem("<span class=\"fa fa-arrow-right\"></span>", Url.Action("AddToList", "TestPlans"), "Добавить");
+        menu.AddItem("<span class=\"fa fa-arrow-left\"></span>", Url.Action("Remove", "TestPlans"), "Удалить");
+    }
+    @menu.ToHtml()
+</div>
+<div class="col-md-5">
+    <table class="table table-condensed">
+        <thead>
+        <tr>
+            <th class="col-md-1"><input type="checkbox"/></th>
+            <th class="col-md-10">Имя</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.TestCases)
+        {
+            <tr>
+                <td><input type="checkbox"/></td>
+                <td>@item.Name<br/></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+</div>

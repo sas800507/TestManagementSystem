@@ -1,6 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 using TMS.Models;
+using TMS.Models.DataModels;
 using TMS.Models.WebModel;
 using TMS.Services;
 
@@ -38,7 +39,10 @@ namespace TMS.Controllers
         [HttpPost]
         public ActionResult Save(TestCaseModel model)
         {
+            var old = Repository.GetTestCase(model.ID);
             model = Repository.UpdateTestCase(model);
+            model.Folder = old.Folder;
+            Repository.UpdateTestCase(model);
             return RedirectToAction("ViewTc", new { testCaseId = model.ID });
         }
     }

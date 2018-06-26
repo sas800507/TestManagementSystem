@@ -129,18 +129,26 @@
     <Compile Include="Controllers\RequrementsController.cs" />
     <Compile Include="Controllers\SystemController.cs" />
     <Compile Include="Controllers\TestCasesController.cs" />
+    <Compile Include="Controllers\TestPlansController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\ElementsHelpers.cs" />
     <Compile Include="Helpers\HtmlHelpersAccess.cs" />
     <Compile Include="Helpers\SubMenuElement.cs" />
+    <Compile Include="Models\Cashed\CachedConstants.cs" />
+    <Compile Include="Models\Cashed\ConstantsPlanState.cs" />
+    <Compile Include="Models\Cashed\ConstantsTestCaseState.cs" />
     <Compile Include="Models\DataModels\BaseModel.cs" />
     <Compile Include="Models\DataModels\LoginModel.cs" />
     <Compile Include="Models\DataModels\SystemModels.cs" />
     <Compile Include="Models\DataModels\TestCaseModel.cs" />
+    <Compile Include="Models\DataModels\TestCaseResultModel.cs" />
+    <Compile Include="Models\DataModels\TestPlanModel.cs" />
     <Compile Include="Models\DataModels\UserModel.cs" />
     <Compile Include="Models\WebModel\TestCaseListModel.cs" />
+    <Compile Include="Models\WebModel\TestPlanEditTestListModel.cs" />
+    <Compile Include="Models\WebModel\TestPlanListModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Abstract\IAuthentication.cs" />
     <Compile Include="Services\Abstract\IRepository.cs" />
@@ -355,13 +363,25 @@
     <Content Include="Scripts\knockout-3.0.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Shared\DisplayTemplates\ConstantsPlanState.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\ConstantsTestCaseState.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\MultyLineText.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\TestCaseModel.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\TestPlanModel.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\ConstantsPlanState.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\ConstantsTestCaseState.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\MultyLineText.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\TestCaseModel.cshtml" />
     <Content Include="Views\TestCases\Edit.cshtml" />
     <Content Include="Views\TestCases\Index.cshtml" />
     <Content Include="Views\TestCases\TestCasesLayout.cshtml" />
     <Content Include="Views\TestCases\ViewTc.cshtml" />
+    <Content Include="Views\TestPlans\EditTcList.cshtml" />
+    <Content Include="Views\TestPlans\EditTp.cshtml" />
+    <Content Include="Views\TestPlans\Index.cshtml" />
+    <Content Include="Views\TestPlans\Play.cshtml" />
+    <Content Include="Views\TestPlans\TestPlanLayout.cshtml" />
+    <Content Include="Views\TestPlans\ViewTp.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

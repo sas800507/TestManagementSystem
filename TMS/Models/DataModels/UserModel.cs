@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace TMS.Models
 {
@@ -23,6 +19,6 @@ namespace TMS.Models
         [Display(Name = "Пароль")]
         public string Password { get; set; }
 
-        public Constants.Constants.UserType UserType { get; set; }
+        public TMS.Constants.Constants.UserType UserType { get; set; }
     }
 }

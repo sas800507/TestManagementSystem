@@ -2,9 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using TMS.Models;
+using TMS.Models.Cashed;
+using TMS.Models.DataModels;
 
 namespace TMS.Services.Implements.Repository
 {
@@ -13,6 +16,8 @@ namespace TMS.Services.Implements.Repository
         private List<UserModel> _userList = new List<UserModel>();
         private List<FolderModel> _folderList = new List<FolderModel>();
         private List<TestCaseModel> _testCases = new List<TestCaseModel>();
+        private List<TestPlanModel> _testPlans = new List<TestPlanModel>();
+        private List<TestCaseResultModel> _testCaseResult = new List<TestCaseResultModel>();
 
         public Repository()
         {
@@ -120,6 +125,88 @@ namespace TMS.Services.Implements.Repository
                 Folder = _folderList.FirstOrDefault(x => x.Name.Equals("Папка 1"))
             });
             #endregion
+
+            #region TestCaseResult
+            _testCaseResult.Add(new TestCaseResultModel()
+            {
+                ID = 1.ToString(),
+                TcResult = CachedConstants.TestCaseStates.FirstOrDefault(x => x.ID.Equals("2")),
+                TestCase = _testCases.FirstOrDefault(x => x.ID.Equals("1"))
+            });
+            _testCaseResult.Add(new TestCaseResultModel()
+            {
+                ID = 2.ToString(),
+                TcResult = CachedConstants.TestCaseStates.FirstOrDefault(x => x.ID.Equals("4")),
+                TestCase = _testCases.FirstOrDefault(x => x.ID.Equals("2"))
+            });
+            _testCaseResult.Add(new TestCaseResultModel()
+            {
+                ID = 3.ToString(),
+                TcResult = CachedConstants.TestCaseStates.FirstOrDefault(x => x.ID.Equals("1")),
+                TestCase = _testCases.FirstOrDefault(x => x.ID.Equals("1"))
+            });
+            _testCaseResult.Add(new TestCaseResultModel()
+            {
+                ID = 4.ToString(),
+                TcResult = CachedConstants.TestCaseStates.FirstOrDefault(x => x.ID.Equals("3")),
+                TestCase = _testCases.FirstOrDefault(x => x.ID.Equals("2"))
+            });
+            #endregion
+
+            #region TestPlans
+            _testPlans.Add(new TestPlanModel()
+            {
+                ID = 1.ToString(),
+                Description = "First test plan",
+                Folder = _folderList.FirstOrDefault(x => x.Name.Equals("Папка 1")),
+                Name = "First plan",
+                Result = "Not run yet",
+                Version = "release_7",
+                State = CachedConstants.PlanStates.FirstOrDefault(x => x.ID.Equals("2")),
+                TestCases = new []
+                { 
+                    _testCaseResult.FirstOrDefault(x => x.ID.Equals("1")),
+                    _testCaseResult.FirstOrDefault(x => x.ID.Equals("2")),
+                }
+            });
+            _testPlans.Add(new TestPlanModel()
+            {
+                ID = 2.ToString(),
+                Description = "Second test plan",
+                Folder = _folderList.FirstOrDefault(x => x.Name.Equals("Папка 2")),
+                Name = "Second plan",
+                Result = "Not run yet",
+                Version = "release_7",
+                State = CachedConstants.PlanStates.FirstOrDefault(x => x.ID.Equals("1")),
+                TestCases = new []
+                { 
+                    _testCaseResult.FirstOrDefault(x => x.ID.Equals("3")),
+                    _testCaseResult.FirstOrDefault(x => x.ID.Equals("4")),
+                }
+            });
+
+            #endregion
+        }
+
+        public IEnumerable<ConstantsPlanState> PlanStates()
+        {
+            return new[]
+            {
+                new ConstantsPlanState(){ ID = 1.ToString(), Name = "Новый", Color = Color.Red, Icon = "fa fa-plus-circle"},
+                new ConstantsPlanState(){ ID = 2.ToString(), Name = "В работе", Color = Color.Green, Icon = "fa fa-gear"},
+                new ConstantsPlanState(){ ID = 3.ToString(), Name = "Завершён", Color = Color.DarkGray, Icon = "fa fa-check"},
+            };
+        }
+
+        public IEnumerable<ConstantsTestCaseState> TestCaseStates()
+        {
+            return new[]
+            {
+                new ConstantsTestCaseState() { ID = 1.ToString(), Name = "Не выполнялся", Color = Color.DarkGray, Icon = "fa fa-gear"}, 
+                new ConstantsTestCaseState() { ID = 2.ToString(), Name = "Успешно", Color = Color.Green, Icon = "fa fa-check"}, 
+                new ConstantsTestCaseState() { ID = 3.ToString(), Name = "Провален", Color = Color.Red, Icon = "fa fa-close"}, 
+                new ConstantsTestCaseState() { ID = 4.ToString(), Name = "Игнорирован", Color = Color.Orange, Icon = "fa fa-eye-slash"}, 
+            };
         }
 
         public UserModel GetUser(string id)
@@ -166,6 +253,56 @@ namespace TMS.Services.Implements.Repository
             }
 
             return testCase;
+        }
+
+        public TestPlanModel GetTestPlan(string id)
+        {
+            var result = _testPlans.FirstOrDefault(x => x.ID == id);
+            var updResults = result.TestCases.Select(x => GetTestCaseResult(x.ID));
+            result.TestCases = updResults.ToArray();
+            return result;
+        }
+
+        public IEnumerable<TestPlanModel> GetTestPlans(FolderModel folder = null)
+        {
+            return _testPlans.Where(x => x.Folder == folder);
+        }
+
+        public TestPlanModel UpdaTestPlan(TestPlanModel testPlan)
+        {
+            var index = _testPlans.FindIndex(x => x.ID.Equals(testPlan.ID));
+            if (index == -1)
+            {
+                _testPlans.Add(testPlan);
+            }
+            else
+            {
+                _testPlans[index] = testPlan;
+            }
+
+            return testPlan;
+        }
+
+        public TestCaseResultModel GetTestCaseResult(string id)
+        {
+            var result = _testCaseResult.FirstOrDefault(x => x.ID.Equals(id));
+            result.TestCase = _testCases.FirstOrDefault(x => x.ID.Equals(result.TestCase.ID));
+            return result;
+        }
+
+        public TestCaseResultModel UpdateTestCaseResult(TestCaseResultModel tcResult)
+        {
+            var index = _testCaseResult.FindIndex(x => x.ID.Equals(tcResult.ID));
+            if (index == -1)
+            {
+                _testCaseResult.Add(tcResult);
+            }
+            else
+            {
+                _testCaseResult[index] = tcResult;
+            }
+
+            return tcResult;
         }
     }
 }

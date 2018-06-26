@@ -14,5 +14,10 @@ namespace TMS.Helpers
         {
             return MvcHtmlString.Create(string.Format("<li>{0}</li>", url));
         }
+
+        public static MvcHtmlString IconLink(this HtmlHelper html, string icon, string url)
+        {
+            return MvcHtmlString.Create(string.Format("<a href=\"{0}\"><i class=\"{1}\"></i></a>", url, icon));
+        }
     }
 }

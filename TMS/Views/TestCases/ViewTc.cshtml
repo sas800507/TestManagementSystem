@@ -1,8 +1,8 @@
-﻿@model TMS.Models.TestCaseModel
+﻿@model TMS.Models.DataModels.TestCaseModel
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     var tcMenu = new SubMenuElement(4);
-    tcMenu.AddItem("<span class=\"glyphicon glyphicon-chevron-left\"></span>", Url.Action("Index", "TestCases", new {parent = @Model.Folder.ID}, null), "Назад");
+    tcMenu.AddItem("<span class=\"fa fa-arrow-left\"></span>", Url.Action("Index", "TestCases", new {parent = @Model.Folder.ID}, null), "Назад");
     tcMenu.AddItem("<span class=\"glyphicon glyphicon-pencil\"></span>", Url.Action("Edit", "TestCases", new {tcId = @Model.ID}, null), "Редактировать");
     tcMenu.AddItem("<span class=\"glyphicon glyphicon-lock\"></span>", Url.Action("Lock", "TestCases", new {tcId = @Model.ID}, null), "Заблокировать");
     tcMenu.AddItem("<span class=\"glyphicon glyphicon-file\"></span>", Url.Action("Copy", "TestCases", new {tcId = @Model.ID}, null), "Копировать");

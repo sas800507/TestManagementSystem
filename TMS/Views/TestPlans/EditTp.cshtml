@@ -1,0 +1,20 @@
+﻿@model TMS.Models.DataModels.TestPlanModel
+
+@{
+    ViewBag.Title = "Тестплан - Описание";
+    var tpMenu = new SubMenuElement(4);
+    tpMenu.AddItem("<span class=\"fa fa-close\"></span>", Url.Action("ViewTp", "TestPlans", new {testPlanId = @Model.ID}, null), "Закрыть");
+    ViewBag.SubMenu = tpMenu;
+}
+
+@using (Html.BeginForm("Save", "TestPlans", FormMethod.Post, new {@class = "form-horizontal"}))
+{
+    @Html.ValidationSummary()
+    @Html.EditorFor(x => x.Name)
+    @Html.EditorFor(x => x.Description)
+    @Html.EditorFor(x => x.Result)
+    @Html.EditorFor(x => x.State)
+    @Html.HiddenFor(x => x.ID)
+    @Html.HiddenFor(x => x.Folder.ID)
+    <button type="submit" class="btn btn-success btn-block">Сохранить</button>
+}

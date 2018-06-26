@@ -1,7 +1,10 @@
-﻿@model TMS.Models.TestCaseModel
+﻿@model TMS.Models.DataModels.TestCaseModel
 
 @{
     ViewBag.Title = "Редактировать";
+    var tpMenu = new SubMenuElement(4);
+    tpMenu.AddItem("<span class=\"fa fa-close\"></span>", Url.Action("ViewTc", "TestCases", new {testCaseId = @Model.ID}, null), "Закрыть");
+    ViewBag.SubMenu = tpMenu;
 }
 
 @using (Html.BeginForm("Save", "TestCases", FormMethod.Post, new {@class = "form-horizontal"}))

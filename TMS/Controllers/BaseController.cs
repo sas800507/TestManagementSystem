@@ -7,6 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using TMS.Models;
+using TMS.Models.Cashed;
 
 namespace TMS.Controllers
 {
@@ -20,7 +21,7 @@ namespace TMS.Controllers
 
         public BaseController()
         {
-            _repository = new Repository();
+            _repository = CachedConstants.Repository;
             _authentication = new Authentication(_repository);
         }
 

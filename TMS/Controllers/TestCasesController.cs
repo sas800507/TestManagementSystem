@@ -16,6 +16,7 @@ namespace TMS.Controllers
             var currentFolder = Repository.GetFolder(parent);
             var model = new TestCaseListModel
             {
+                CurrentFolder = currentFolder,
                 ParentFolder = currentFolder != null ? currentFolder.Parent : null, 
                 Folders = Repository.GetFolderList(parent),
                 TestCases = Repository.GetTestCases(currentFolder)
@@ -30,9 +31,9 @@ namespace TMS.Controllers
             return View(tc);
         }
 
-        public ActionResult Edit(string tcid = null)
+        public ActionResult Edit(string tcid = null, string folderId = null)
         {
-            var model = string.IsNullOrEmpty(tcid) ? new TestCaseModel() : Repository.GetTestCase(tcid);
+            var model = string.IsNullOrEmpty(tcid) ? new TestCaseModel(){Folder = new FolderModel(){ID = folderId}} : Repository.GetTestCase(tcid);
             return View(model);
         }
 
@@ -40,10 +41,29 @@ namespace TMS.Controllers
         public ActionResult Save(TestCaseModel model)
         {
             var old = Repository.GetTestCase(model.ID);
+            model.Folder = Repository.GetFolder(model.Folder.ID);
             model = Repository.UpdateTestCase(model);
-            model.Folder = old.Folder;
             Repository.UpdateTestCase(model);
             return RedirectToAction("ViewTc", new { testCaseId = model.ID });
+        }
+
+        public ActionResult Delete(string tcid)
+        {
+            var tc = Repository.GetTestCase(tcid);
+            if (tc == null)
+                return RedirectToAction("Index");
+            
+            Repository.DeleteTestCase(tc);
+            return RedirectToAction("Index", new { parent = tc.Folder.ID });
+        }
+
+        public ActionResult Copy(string tcid)
+        {
+            var tc = Repository.GetTestCase(tcid).Clone() as TestCaseModel;
+            tc.ID = string.Empty;
+            tc.Name = string.Format("{0} - Copy", tc.Name);
+            tc = Repository.UpdateTestCase(tc);
+            return RedirectToAction("ViewTc", new { testCaseId = tc.ID });
         }
     }
 }

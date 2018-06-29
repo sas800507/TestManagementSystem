@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using TMS.Models.DataModels;
 
 namespace TMS.Models
 {

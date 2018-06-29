@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
 using TMS.Models.Cashed;
@@ -7,6 +8,11 @@ namespace TMS.Models.DataModels
 {
     public class TestPlanModel : FolderedModel
     {
+        public TestPlanModel() : base()
+        {
+            TestCases = new List<TestCaseResultModel>().ToArray();
+        }
+
         [DisplayName("Наименование")]
         public string Name { get; set; }
         [UIHint("MultyLineText")]

@@ -1,13 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
-namespace TMS.Models
+namespace TMS.Models.DataModels
 {
-    public class BaseModel
+    public class BaseModel : ICloneable
     {
         public string ID { get; set; }
+        
+        public object Clone()
+        {
+            return MemberwiseClone();
+        }
     }
 
     public class FolderedModel : BaseModel

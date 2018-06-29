@@ -371,6 +371,7 @@
     <Content Include="Views\Shared\EditorTemplates\ConstantsPlanState.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\ConstantsTestCaseState.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\MultyLineText.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\String.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\TestCaseModel.cshtml" />
     <Content Include="Views\TestCases\Edit.cshtml" />
     <Content Include="Views\TestCases\Index.cshtml" />

@@ -1,6 +1,6 @@
 ﻿@model TMS.Models.DataModels.TestCaseModel
 
-<h1>@Model.Name</h1>
+<h1>@string.Format("({0}) {1}", Model.UnicID, Model.Name)</h1>
 <div class="panel panel-info">
     <div class="panel-heading">@Html.DisplayNameFor(x => Model.Description)</div>
     <div class="panel-body">

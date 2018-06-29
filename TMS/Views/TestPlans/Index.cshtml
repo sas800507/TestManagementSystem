@@ -4,6 +4,9 @@
 @{
     ViewBag.Title = "Планы тестирования";
     Layout = "TestPlanLayout.cshtml";
+    var tpMenu = new SubMenuElement(4);
+    tpMenu.AddItem("<span class=\"glyphicon glyphicon-plus\"></span>", Url.Action("EditTp", "TestPlans", new {testplanid = string.Empty, folderId = Model.CurrentFolder == null ? string.Empty : Model.CurrentFolder.ID }, null), "Добавить");
+    ViewBag.SubMenu = tpMenu;
 }
 
 <table class="table">

@@ -3,7 +3,7 @@
 @{
     ViewBag.Title = "Редактировать";
     var tpMenu = new SubMenuElement(4);
-    tpMenu.AddItem("<span class=\"fa fa-close\"></span>", Url.Action("ViewTc", "TestCases", new {testCaseId = @Model.ID}, null), "Закрыть");
+    tpMenu.AddItem("<span class=\"fa fa-close\"></span>", Url.Action("Index", "TestCases", new {parent = @Model.Folder.ID}, null), "Закрыть");
     ViewBag.SubMenu = tpMenu;
 }
 
@@ -11,10 +11,10 @@
 {
     @Html.ValidationSummary()
     @Html.EditorFor(x => x.Name)
+    @Html.EditorFor(x => x.UnicID)
     @Html.EditorFor(x => x.Description)
     @Html.EditorFor(x => x.StepBefore)
     @Html.EditorFor(x => x.Expected)
-    @Html.HiddenFor(x => x.UnicID)
     @Html.HiddenFor(x => x.ID)
     @Html.HiddenFor(x => x.Folder.ID)
     <button type="submit" class="btn btn-success btn-block">Сохранить</button>

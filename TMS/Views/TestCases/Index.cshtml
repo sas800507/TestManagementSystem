@@ -3,6 +3,9 @@
 @{
     ViewBag.Title = "Тест кейсы";
     Layout = "TestCasesLayout.cshtml";
+    var tcMenu = new SubMenuElement(4);
+    tcMenu.AddItem("<span class=\"glyphicon glyphicon-plus\"></span>", Url.Action("Edit", "TestCases", new {tcid = string.Empty, folderid = Model.CurrentFolder == null ? string.Empty : Model.CurrentFolder.ID}, null), "Добавить");
+    ViewBag.SubMenu = tcMenu;
 }
 
 <table class="table">

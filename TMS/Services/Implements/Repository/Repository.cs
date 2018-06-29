@@ -230,6 +230,11 @@ namespace TMS.Services.Implements.Repository
             return _folderList.Where(x => x.Parent != null && x.Parent.ID == parent);
         }
 
+        public void DeleteFolder(FolderModel folder)
+        {
+            _folderList.Remove(folder);            
+        }
+
         public TestCaseModel GetTestCase(string id)
         {
             return _testCases.FirstOrDefault(x => x.ID == id);
@@ -240,12 +245,38 @@ namespace TMS.Services.Implements.Repository
             return _testCases.Where(x => x.Folder == folder);
         }
 
+        private int GetUniqRandomId(BaseModel[] models)
+        {
+            var random = new Random();
+
+            var notUniq = true;
+            var id = int.MinValue;
+            while (notUniq)
+            {
+                id = random.Next(int.MinValue, int.MaxValue);
+                notUniq = models.Any(x => x.ID.Equals(id.ToString()));
+            }
+
+            return id;
+        }
+
+        private TestCaseModel AddTestCase(TestCaseModel testCase)
+        {
+            var id = GetUniqRandomId(_testCases.Cast<BaseModel>().ToArray());
+            testCase.ID = id.ToString();
+            _testCases.Add(testCase);
+            return testCase;
+        }
+
         public TestCaseModel UpdateTestCase(TestCaseModel testCase)
         {
+            if (string.IsNullOrEmpty(testCase.ID))
+                return AddTestCase(testCase);
+            
             var index = _testCases.FindIndex(x => x.ID.Equals(testCase.ID));
             if (index == -1)
             {
-                _testCases.Add(testCase);
+                testCase = AddTestCase(testCase);
             }
             else
             {
@@ -255,9 +286,15 @@ namespace TMS.Services.Implements.Repository
             return testCase;
         }
 
+        public void DeleteTestCase(TestCaseModel testCase)
+        {
+            _testCases.Remove(testCase);
+        }
+
         public TestPlanModel GetTestPlan(string id)
         {
             var result = _testPlans.FirstOrDefault(x => x.ID == id);
+            if (result == null) return null;
             var updResults = result.TestCases.Select(x => GetTestCaseResult(x.ID));
             result.TestCases = updResults.ToArray();
             return result;
@@ -268,12 +305,22 @@ namespace TMS.Services.Implements.Repository
             return _testPlans.Where(x => x.Folder == folder);
         }
 
+        private TestPlanModel AddTestPlan(TestPlanModel testPlan)
+        {
+            var id = GetUniqRandomId(_testPlans.Cast<BaseModel>().ToArray());
+            testPlan.ID = id.ToString();
+            _testPlans.Add(testPlan);
+            return testPlan;
+        }
+
         public TestPlanModel UpdaTestPlan(TestPlanModel testPlan)
         {
+            if (string.IsNullOrEmpty(testPlan.ID))
+                return AddTestPlan(testPlan);
             var index = _testPlans.FindIndex(x => x.ID.Equals(testPlan.ID));
             if (index == -1)
             {
-                _testPlans.Add(testPlan);
+                testPlan = AddTestPlan(testPlan);
             }
             else
             {
@@ -281,6 +328,15 @@ namespace TMS.Services.Implements.Repository
             }
 
             return testPlan;
+        }
+
+        public void DeleteTestPlan(TestPlanModel testPlan)
+        {
+            foreach (var testCase in testPlan.TestCases)
+            {
+                DeleteTestResult(testCase);
+            }
+            _testPlans.Remove(testPlan);
         }
 
         public TestCaseResultModel GetTestCaseResult(string id)
@@ -303,6 +359,11 @@ namespace TMS.Services.Implements.Repository
             }
 
             return tcResult;
+        }
+
+        public void DeleteTestResult(TestCaseResultModel tcResult)
+        {
+            _testCaseResult.Remove(tcResult);
         }
     }
 }

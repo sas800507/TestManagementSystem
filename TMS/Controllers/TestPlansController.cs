@@ -15,6 +15,7 @@ namespace TMS.Controllers
             var currentFolder = Repository.GetFolder(parent);
             var model = new TestPlanListModel
             {
+                CurrentFolder = currentFolder,
                 ParentFolder = currentFolder != null ? currentFolder.Parent : null, 
                 Folders = Repository.GetFolderList(parent),
                 TestPlans = Repository.GetTestPlans(currentFolder)
@@ -49,9 +50,11 @@ namespace TMS.Controllers
             return View(model);
         }
 
-        public ActionResult EditTp(string testplanid)
+        public ActionResult EditTp(string testplanid = null, string folderId = null)
         {
             var model = Repository.GetTestPlan(testplanid);
+            if (model == null)
+                model = new TestPlanModel() {Folder = Repository.GetFolder(folderId)};
             return View(model);
         }
 
@@ -59,12 +62,14 @@ namespace TMS.Controllers
         public ActionResult Save(TestPlanModel model)
         {
             var old = Repository.GetTestPlan(model.ID);
+            if (old == null)
+                old = new TestPlanModel() {Folder = Repository.GetFolder(model.Folder != null ? model.Folder.ID : string.Empty)};;
             old.Description = model.Description;
             old.Name = model.Name;
             old.Result = model.Result;
             old.State = CachedConstants.PlanStates.FirstOrDefault(x => x.ID.Equals(model.State.ID));
             Repository.UpdaTestPlan(old);
-            return RedirectToAction("ViewTp", new {testplanid = model.ID});
+            return RedirectToAction("ViewTp", new {testplanid = old.ID});
         }
 
         public ActionResult Play(string testplanid)

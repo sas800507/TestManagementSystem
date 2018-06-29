@@ -2,14 +2,16 @@
 @model ConstantsTestCaseState
 
 <div class="form-group">
-    @Html.LabelFor(x => x, new Dictionary<string, object>() {{"class", "control-label"}})
-    @Html.DropDownListFor(x => x.ID, 
-                          CachedConstants.TestCaseStates.Select(item => new SelectListItem()
-                          {
-                              Value = item.ID,
-                              Text = item.Name,
-                              Selected = item.ID == Model.ID
-                          }), 
-                          null, 
-                          new Dictionary<string, object>(){{"class", "form-control"}, {"id", "PlanStateSel"}})
+    @Html.LabelFor(x => x, new Dictionary<string, object>() {{"class", "col-md-2 control-label"}})
+    <div class="col-md-10">
+        @Html.DropDownListFor(x => x.ID, 
+            CachedConstants.TestCaseStates.Select(item => new SelectListItem()
+            {
+                Value = item.ID,
+                Text = item.Name,
+                Selected = item.ID == Model.ID
+            }), 
+            null, 
+            new Dictionary<string, object>(){{"class", "form-control"}, {"id", "PlanStateSel"}})
+    </div>
 </div>
